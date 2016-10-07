@@ -1,0 +1,21 @@
+//
+//  PrefixHeader.pch
+//  LJTimeManagerLoginVC
+//
+//  Created by 刘瑾 on 16/9/27.
+//  Copyright © 2016年 刘瑾. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import <UIKit/UIKit.h>
+
+#define RGB_FLOAT(x) ((x) / 255.0)
+
+static void LJSetViewCornerRadius(CGFloat radius, CALayer * layer){
+    layer.cornerRadius = radius;
+    layer.masksToBounds = YES;
+}
+
+#endif /* PrefixHeader_pch */
